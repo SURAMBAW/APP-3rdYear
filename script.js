@@ -1,7 +1,7 @@
 let courses = [];
 
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("../courses/data.json")
+    fetch("data.json")
         .then(response => response.json())
         .then(data => {
             courses = data.courses;
