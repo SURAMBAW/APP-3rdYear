@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio - Course Search</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="profile">
+    <img src="../assets/profile pic.jpg" alt="Profile Picture">
+    <h2>Jude Adrianne B. Jimoya</h2>
+    <p>Welcome to my personal portfolio website!</p>
+</section>
+
+<section id="about">
+    <h3>About Me</h3>
+    <p>Hello! I'm Jude Adrianne B. Jimoya, passionate about creating apps. I love building amazing projects and solving problems through technology.</p>
+</section>
+
+<section id="skills">
+    <h3>Skills</h3>
+    <div class="skills-container">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>React</span>
+        <span>Python</span>
+    </div>
+</section>
+
+<section id="courses">
+    <h3>Search Courses</h3>
+    <input type="text" id="searchBox" placeholder="Search courses...">
+    <button onclick="searchCourses()">Search</button>
+    <ul id="course-list"></ul>
+</section>
+
+<section id="education">
+    <h3>Education</h3>
+    <ul>
+        <li>2016-2020 - Bugo National Highschool</li>
+        <li>2020-2022 - Iligan Computer Institute</li>
+        <li>2022-2026 - University of Science and Technology</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h3>Contact Me</h3>
+    <p>Cellphone: 09709594147</p>
+    <p>Email: <span id="email">judejimoya@gmail.com</span></p>
+    <p>Facebook: <a href="#" id="facebook-link">Jude's Facebook Profile</a></p>
+    <p>GitHub: <a href="#" id="github-link">Jude's GitHub</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Jude Adrianne B. Jimoya. All rights reserved.</p>
+</footer>
+
+<script src="../searchcourses/script.js"></script>
+</body>
+</html>
